@@ -22,6 +22,13 @@ body {
 .content{
     height: 10rem;
     background-color:  aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(65,65,65);
+    background-color: rgba(26,200,243,);
+
 }
 
 .yello{
@@ -51,6 +58,10 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 30px;
+}
+.header,.footer{
+    height: 5rem;
+    padding-bottom: 1rem;
 }
 
 .col {
@@ -119,6 +130,7 @@ body {
 }
 
 
+
 /* sm */
 
 @media (min-width: 576px) {
@@ -170,7 +182,7 @@ body {
         flex: 0 0 auto;
     }
     .col-sm-12 {
-        width: 100%;
+        width: 100%;    
         flex: 0 0 auto;
     }
 }
